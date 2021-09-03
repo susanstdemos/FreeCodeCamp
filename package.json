@@ -22,7 +22,7 @@
     "test-challenges": "babel-node seed/test-challenges.js | tap-spec",
     "pretest": "npm run lint",
     "test": "npm run test-challenges",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepublish": "npm run snyk-protect"
   },
   "license": "(BSD-3-Clause AND CC-BY-SA-4.0)",
@@ -135,7 +135,7 @@
     "webpack-stream": "^3.1.0",
     "xss-filters": "^1.2.6",
     "yargs": "^4.1.0",
-    "snyk": "^1.17.4"
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "browser-sync": "^2.9.12",
